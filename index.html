@@ -14,16 +14,44 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header container">
-      <div class="header__container">
-        <svg>
-          <use
-            href="./images/./icon.svg#icon-logo"
-            width="15"
-            height="15"
-          ></use>
+    <header class="header">
+      <div class="header__container container">
+        <svg class="header__logo">
+          <use href="./images/icons.svg#icon-main-logo"></use>
         </svg>
+        <nav class="nav">
+          <ul class="header__list">
+            <li class="header__item"><a>What is AvOS?</a></li>
+            <li class="header__item"><a>Ground Handling</a></li>
+            <li class="header__item"><a>Into-Plane</a></li>
+            <li class="header__item"><a>Airport</a></li>
+            <li class="header__item"><a>Timescale</a></li>
+            <li class="header__item"><a>Contact Us</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
+    <section class="news">
+      <div class="news__dicaration">
+        <div class="news__first-detal">
+          <img src="./images/news/detal-1.png" alt="" />
+        </div>
+        <svg class="news__svg" width="623px" height="602px">
+          <use href="./images/icons.svg#icon-triangel"></use>
+        </svg>
+        <div class="news__second-detal">
+          <img src="./images/news/detal-2.png" alt="" />
+        </div>
+      </div>
+
+      <p class="news__discription">
+        Aviation Data Solutions are pleased to announce the upcoming launch of
+        AvOS
+        <span class="news__user-click"
+          ><a href="">(Aviation Operations Software)</a></span
+        >; a new low-cost, lightweight yet highly-capable ground operations
+        software platform for ground handlers, into-plane agents and airports
+      </p>
+    </section>
   </body>
 </html>
