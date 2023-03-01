@@ -1,4 +1,6 @@
 :root {
+  --main-font: "Ubuntu", sans-serif;
+  --secondary-font: "Source Sans Pro", sans-serif;
   --main-bg-color: #0a2e45;
   --secondary-bg-color: #40bda6;
   --main-txt-color: #000000;
@@ -7,7 +9,7 @@
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--main-font);
   color: var(#000000);
 }
 
@@ -186,7 +188,7 @@ summary {
 }
 
 .header {
-  max-width: 1600px;
+  max-width: 1400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,11 +254,11 @@ summary {
 }
 
 .news {
-  max-width: 1600px;
+  max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
   background-color: var(--main-bg-color);
-  padding-bottom: 600px;
+  padding-bottom: 166px;
 }
 
 .news__dicaration {
@@ -302,4 +304,116 @@ summary {
 
 .news__user-click {
   color: var(--title-color);
+}
+
+.avos {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.avos__box {
+  width: 1296px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 32px;
+  padding-top: 62px;
+  padding-bottom: 167px;
+  margin-top: -90px;
+  -webkit-transform: translateX(-26px);
+          transform: translateX(-26px);
+}
+
+.avos__title {
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 0.8653846154;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+
+.avos__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.avos__img {
+  margin-bottom: 6px;
+}
+
+.avos__discription {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.8;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about {
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 71px;
+}
+
+.about__title {
+  width: 1093px;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.about__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about__svg {
+  margin-bottom: 18px;
+}
+
+.about__discription {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  width: 301px;
+  margin-bottom: 50px;
+}
+
+.about__sub-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  width: 1111px;
 }/*# sourceMappingURL=main.css.map */

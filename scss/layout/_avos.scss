@@ -1,0 +1,39 @@
+.avos {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+.avos__box {
+  width: 1296px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 32px;
+  padding-top: 62px;
+  padding-bottom: 167px;
+  margin-top: -90px;
+  transform: translateX(-26px);
+}
+.avos__title {
+  font-weight: 500;
+  font-size: 52px;
+  line-height: calc(45 / 52);
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+
+.avos__list {
+  display: flex;
+  justify-content: space-around;
+}
+.avos__img {
+  margin-bottom: 6px;
+}
+.avos__discription {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(45 / 25);
+  text-align: center;
+  color: #ffffff;
+}

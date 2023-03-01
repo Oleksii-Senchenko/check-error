@@ -6,9 +6,11 @@
 @import "./base/reset";
 @import "./base/modern-normalize.min";
 //components
-@import "./components/button";
+// @import "./components/button";
 @import "./components/container";
 @import "./components/titles";
 //layout
 @import "./layout/header";
 @import "./layout/news";
+@import "./layout/avos";
+@import "./layout/about";
