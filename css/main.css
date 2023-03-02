@@ -423,10 +423,13 @@ summary {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 54px;
+  padding-right: 103px;
   padding-top: 154px;
   padding-bottom: 61px;
   background-color: var(--main-bg-color);
   position: relative;
+  margin-bottom: 72px;
 }
 
 .service__svg {
@@ -438,24 +441,6 @@ summary {
   margin-bottom: 35px;
 }
 
-.service__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 150px;
-}
-
-.service__card {
-  margin-right: 0;
-  position: relative;
-  top: 104px;
-  margin-left: 43px;
-}
-
-.sevice__card-zero {
-  margin-left: 94px;
-}
-
 .service__title {
   font-weight: 500;
   font-size: 52px;
@@ -463,6 +448,24 @@ summary {
   text-align: center;
   color: #40bda6;
   margin-bottom: 70px;
+}
+
+.service__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service__card {
+  margin-right: 0;
+  position: relative;
+}
+
+.sevice__card-zero {
+  margin-left: 94px;
 }
 
 .sevice__card-first {
@@ -488,10 +491,6 @@ summary {
   height: 280px;
 }
 
-.service__motivation {
-  margin-right: 0;
-}
-
 .service__discription {
   font-family: var(--secondary-font);
   font-weight: 400;
@@ -502,7 +501,7 @@ summary {
   margin-bottom: 39px;
 }
 
-.service__benefits-title {
+.service__subtitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
@@ -510,7 +509,7 @@ summary {
   color: #40bda6;
 }
 
-.sevice__benefits-list {
+.sevice__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,7 +521,7 @@ summary {
   width: 640px;
 }
 
-.sevice__benefits-item {
+.sevice__item {
   font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 16px;
@@ -530,11 +529,134 @@ summary {
   color: white;
 }
 
-.sevice__benefits-link {
+.sevice__link {
   text-transform: uppercase;
   font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   color: #40bda6;
+}
+
+.additionally__img:nth-child(1n) {
+  position: inherit;
+  top: 126px;
+  left: 99px;
+}
+
+.additionally__img:nth-child(2n) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.additionally__img:nth-child(3n) {
+  position: absolute;
+  left: 150px;
+  top: 230px;
+}
+
+.inside {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 54px;
+  padding-right: 103px;
+  padding-top: 154px;
+  padding-bottom: 84px;
+  position: relative;
+}
+
+.inside__svg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 75px;
+}
+
+.inside__title {
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 0.8653846154;
+  text-align: center;
+  color: #40bda6;
+  margin-bottom: 70px;
+}
+
+.inside__discription {
+  width: 630px;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  margin-bottom: 39px;
+}
+
+.inside__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 138px;
+}
+
+.inside__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
+
+.inside__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  width: 640px;
+}
+
+.inside__item {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.inside__link {
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #40bda6;
+}
+
+.inside__card {
+  position: relative;
+}
+
+.additionally__img:nth-child(1n) {
+  position: inherit;
+  top: 126px;
+  left: 99px;
+}
+
+.additionally__img:nth-child(2n) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.additionally__img:nth-child(3n) {
+  position: absolute;
+  left: 150px;
+  top: 230px;
 }/*# sourceMappingURL=main.css.map */
